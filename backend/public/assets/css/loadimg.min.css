@@ -1,0 +1,41 @@
+
+
+._cssimg input[type=file],._imgshow input[type=file],.loader{
+	display:none
+}
+
+._cssimg:hover{
+	opacity:1
+}
+
+._cssimg:before{
+	content:attr(text-file)
+}
+._imgshow{
+	cursor:pointer;
+	width:100%;
+	opacity:.9
+}
+
+._imgshow:hover{
+	opacity:1
+}
+
+._imgshow img{
+	border:1px solid silver;
+	border-radius:90px;
+	background-color:#fff;
+	padding:2px;
+	width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+}
+
+.loader{
+	background-image:url(loader.gif);
+	width:20px;height:20px;
+	background-position:center;
+	background-size:100%;
+	margin:1%
+}

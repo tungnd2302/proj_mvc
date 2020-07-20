@@ -1,0 +1,42 @@
+#blah{
+	 border-radius: 68px;
+    height: 100px;
+    display: block;
+    border: 1px solid #333;
+    width: 100px;
+    margin: 0px auto;
+}
+
+
+.notication-area{
+	font-size: 12px;
+	padding-left: 0px;
+	height: 465px;
+	overflow: hidden;
+	overflow-y: scroll;
+	color: #333;
+}
+
+.notication-area li {
+	list-style: none;
+	background-color: #fff;
+	padding: 7px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.notication-area li a{
+	color: #333;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.notication-area li a:hover{
+	text-decoration: none;
+	color: blue;
+}
+
+.notication-area li .complete-icon{
+	margin-right: 5px;
+    margin-top: 0px;
+    color: #333;
+}
